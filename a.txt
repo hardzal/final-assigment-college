@@ -1,0 +1,122 @@
+Girsang, A. S., Al Faruq, B., Herlianto, H. R., & Simbolon, S. (2020). Collaborative Recommendation System in Users of Anime Films. Journal of Physics: Conference Series, 1566(1). https://doi.org/10.1088/1742-6596/1566/1/012057
+
+
+Pada penelitian ini menggunakan sistem rekomendasi berbasis collaborative filtering bisa menghasilkan sistem rekomendasi yang cukup baik yang menggunakan data riwayat user tetapi karena kemampuan metode ini hanya mampu mengolah data sebanyak 100K maka diperlukan mesin yang lebih mampu untuk mengolahnya. Pada penelitian tersebut menggunakan algoritma ALS (Alternating Least-Squares) yang juga merupakan salah satu metode matrix factorization metode tersebut merupakan metode yang memodelkan matriks interkasi antara pengguna atau pemeringkatan dan item. Hasil dari penelitian tersebut menghasilkan RMSE sebesar 2.53
+--------------------------------
+
+Paradarami, T. K., Bastian, N. D., & Wightman, J. L. (2017). A hybrid recommender system using artificial neural networks. Expert Systems with Applications, 83, 300–313. https://doi.org/10.1016/j.eswa.2017.04.046
+
+Pada penelitian ini menerapkan Sistem rekomendasi Artificial Neural Network yang berbasis collaborative filtering dan content based filtering, tujuan dari penelitian tersebut adalah meminimalisir logloss dan rating missclassfication error dengan menggunakan stochastic gradient descent, kemudian setelah dilakukan training dipilihlah  model dengan nilai logloss terendah, dan kemudian memanfaatkan parameter bobot untuk membuat prediksi pada fase test dataset.
+
+fungsi aktivasi nonlinear sangat penting karena dengan kemampuannya mampu membedakan hubungan yang terdapat pada feature dan secara kuat mempengaruhi kompleksitas pada performance ANN
+
+------------
+
+Bokde, D., Girase, S., & Mukhopadhyay, D. (2015). Matrix Factorization model in Collaborative Filtering algorithms: A survey. Procedia Computer Science, 49(1), 136–146. https://doi.org/10.1016/j.procs.2015.04.237
+
+Pada penelitian ini menjelaskan model Matrix Factorization yang banyak digunakan pada penelitian Sistem recommendation collaborative filtering, permasalahan CF adalah menghadapi masalah sparsity dari matriks rating dan perkembangan data secara alamai. 
+
+Pada collaborative filtering terdapat dua teknik yaitu model based dan memory based dari kedua hal tersebut memiliki kekurangan dan kelebihannya masing-masing, untuk menangani hal tersebut maka dikombinasikan lah kedua hal tersebut keterbasannya aadalah makin kompleksnya dalam pengimplementasiannya.
+
+Pada paper ini menerapkan SSVD (Stochastic SVD) yang merupakan pengembangan dari SVD, Dengan menggunakan SSVD ini mampu mengurangi biaya komputasi serta bisa meningkatkan nilai akurasi, presisi dan efisiensi dari algoritma CF ini.
+
+------------------
+Yi, B., Shen, X., Liu, H., Zhang, Z., Zhang, W., Liu, S., & Xiong, N. (2019). Deep Matrix Factorization With Implicit Feedback Embedding for Recommendation System. IEEE Transactions on Industrial Informatics, 15(8), 4591–4601. https://doi.org/10.1109/tii.2019.2893714
+
+------------------------
+Afoudi, Y., Lazaar, M., & Al Achhab, M. (2019). Collaborative filtering recommender system. In Advances in Intelligent Systems and Computing (Vol. 915). Springer International Publishing. https://doi.org/10.1007/978-3-030-11928-7_30
+
+
+-------------------------
+
+Chen, W., Cai, F., Chen, H., & Rijke, M. D. E. (2019). Joint neural collaborative filtering for recommender systems. ACM Transactions on Information Systems, 37(4). https://doi.org/10.1145/3343117
+
+Model ini mengaplikasikan joint neural network yang menerapkan sepasang deep feature learning dan deep interaction modelling dengan matrix rating. 
+
+Deep feature learning mengekstrasi representasi fitur dari user dan item dengan arsitektur deep learning yang berdasarkan pada matriks user-item.
+Deep interaction modelling menangkap non-linear user-item interaction dengan deep neural network menggunakan feature representasi yang didapatkan dari proses deep feature learning sebgai input. 
+
+J-NCf memungkinkan dfl dan dim saling mengoptimasi satu sama lain melalui pelatihan yang digabung yang mana mengarahkan pada peningkatan kemampuan performa rekomendasi. 
+
+pada penelitian ini juga peneliti mampu mendesain loss function baru untuk optimasi yang menerima masukan implicit feedback dan explicit bfeedback. point-wise and pair-wise loss.
+
+Eksperimennya menghasilkan peningkatan yang melampaui state-of-the-art metode dengan peningkatan sebesar 8.24% pada movilens 100k, 10.81% pada movilens 1M dan 10.21% pada Amazon movies dengan evaluasi HR@10, sedangkan NDCG@10 menghasilkan peningkatan sebesar 12.42%, 14.24% dan 15.06%.
+
+Penelitian berhasil melampaui model terbaik pada semua jenis aktifitas user. pada khususnya inactive user yang secara konsisten menjadi mayoritas dari user datasets.
+
+Pada peneltiian ini juga menambahkan saran untuk menerapkan attention mekanisme pada J-NCF yang mana akan mampu memilah konten yang tidak berguna dan memilih item yang paling merepresentasikan sembari memberi interpretability yang bagus.
+
+pada metode ini penerapan bisa mengolah data implicit dan explicit feedback yang mana ncf dasar hanya bisa mengolah data implicit feedback
+
+peneliti menghipotesa bahwa deep learning semestinya bisa menangkap non-linear dan non-trivial user-item relationship termasuk karakteristik users.
+
+JNCF model mampu mengola dua proses yaitu feature extraction dan user-item iteraction modelling untuk bisa dilatih bersamaan di gabungan struktur DL 
+
+--------------------
+Niu, Z., Zhong, G., & Yu, H. (2021). A review on the attention mechanism of deep learning, 452, 48–62. https://doi.org/10.1016/j.neucom.2021.03.091
+
+Attention merupakan salah satu konsep yang penting pada deep learning. Attention terinspirasi pada sistem biologi pada manusia yang berfokus pada bagian yang berbeda (penting) saat melakukan proses pada banyaknya informasi. Pada paper ini menklasifikan empat kriteria model attention saat ini yaitu: the softness of attention, forms of input feature, input representation, dan output representation. 
+
+-------------------
+
+Bobadilla, J., Alonso, S., & Hernando, A. (2020). Deep learning architecture for collaborative filtering recommender systems. Applied Sciences (Switzerland), 10(7). https://doi.org/10.3390/app10072441
+
+Pada penelitian ini menggunakan deep learning untuk mendapatkan non-linear relations di antara predictions, reliabilits dan akurasi rekomendasi. 
+
+pada penelitian ini terdapat tiga stacked abtractions levels 1). real predicitons error. 2). predicted errors (reliabilities) dan c) predicted ratings (predictions)
+
+Terdapat dua penelitian yang memiliki pendekatan neural collaboraive filtering yaitu 1) Deep Factorization Machines 2) Neural Collaborative Filtering
+
+Dari kedua penelitian tersebut NCF memiliki model yang lebih baik dibanding DMF 
+
+Pada penelitian ini meruapakan RNCF (Reliability Neural Collaborative Filtering) yang berfokus pada pendekatan deep learning untuk menangkap hubungan kompleks dari kedua hal yaitu untuk predict realibilites dan untuk predict rating values. 
+
+meskipun DMF memiliki tingkat akurasi sedikit lebih tinggi dibanding NCF tetapi karena kompleksitas DMF lebih tinggi dibanding NCF maka penelitian ini menggunakan NCF sebagai baseline modelnya. NCF memiliki arsitektur yang lebih scalable sebagai model dasar.
+
+Peningkatan hasil penelitian ini didapat pada masing-masing dataset adalah netflix sebesar 34%, movielens sebesar 20% dan filmtrust sebesar 12%, peningkatan tersebut akan berkurang jika jumlah yang direkomendasikan meningkat.
+
+---------------------------------
+
+Yuan, W., Wang, H., Yu, X., Liu, N., & Li, Z. (2020). Attention-based context-aware sequential recommendation model. Information Sciences, 510, 122–134. https://doi.org/10.1016/j.ins.2019.09.007
+
+Pada penelitian ini melihat bahwa adanya impactnya konteks pada suatu informasi yang terdapat pada sistem rekomendasi, kontesk tersebut diklasifikan kedalam empat hal yaitu input context, correlation context, static interest context, dan transition context. 
+
+Setelahnya dengan mendefinisikan ulang update dan reset gate yang terdapat pada gate unit dan menghitung global sequential state transition dari RNN yang ditentukan sesuai context untuk dinamisnya model user interest. 
+
+
+terakhir dengan leveraging attention mechanism di correlation context, sehingga model mampu membedakan kepentingan(impact) informasi diantara urutan rating tersebut, hal tersebut dilakukan untuk mengurangi atau menghilangkan efek dari poin yang tidak normal terhadap informasi yang tidak berguna atau prediksi yang kurang bermanfaat.
+
+Hasil evaluasi yang diberikan pada penelitian ini juga melampaui dari baseline model lainnya pada evaluasi recall, precision dan F1 pada menghasilkan nilai evaluasi pada range 0.07 - 0.1 dan untuk evaluasi MAP sendiri sebesar 0.26
+
+
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

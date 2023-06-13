@@ -1,0 +1,12 @@
+Revisi 
+BAB 1
+ - Menghapus referensi yang tidak diperlukan 
+ - Menambah referensi yang diperlukan
+ - memahami penggunaan attention pada penerapan
+ - memahami penerapan collaborative filtering 
+BAB 2 
+ - Mengganti rumusan dengan tulisan secara langsung
+ - Menambah Daftar pustaka referensi serta menghilangkan beberapa
+BAB 3
+ - Menambah setiap detail pada prosesnya
+ - Membuat contoh perhitungan dengan datanya
